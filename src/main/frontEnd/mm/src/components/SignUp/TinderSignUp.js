@@ -55,7 +55,7 @@ class TinderSignUp extends Component {
     }
     codeAddress = (address) => {
         const age = 2020 - Number(this.state.user.userProfile.birthDate.substring(6));
-        Geocode.setApiKey("AIzaSyAksVZB4RHHEdtF96HB4qpKHRVGWKdFlIo");
+        Geocode.setApiKey("PUT YOUT API KEY HERE");
         Geocode.setLanguage("en");
         Geocode.fromAddress(address).then(
             response => {

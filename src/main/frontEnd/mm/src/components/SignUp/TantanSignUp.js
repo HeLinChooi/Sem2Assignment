@@ -52,7 +52,7 @@ class TantanSignUp extends Component {
         });
     }
     codeAddress = (address) => {
-        Geocode.setApiKey("AIzaSyAksVZB4RHHEdtF96HB4qpKHRVGWKdFlIo");
+        Geocode.setApiKey("PUT YOUT API KEY HERE");
         Geocode.setLanguage("en");
         Geocode.fromAddress(address).then(
             response => {
